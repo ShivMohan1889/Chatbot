@@ -13,9 +13,8 @@ Pod::Spec.new do |s|
     :git => "https://github.com/ShivMohan1889/Chatbot.git",
     :tag => "#{s.version}"
   }
-  s.static_framework = true
-  s.source_files        = "ChatBotSDK/**/*.{h,m,swift}"
-  s.public_header_files = "ChatBotSDK/**/*.h"
+  s.source_files        = "ios_sdk/ChatBotSDK/**/*.{h,m,swift}"
+  s.public_header_files = "ios_sdk/ChatBotSDK/**/*.h"
   
   s.vendored_frameworks = [
    '../chatbot_sdk_channel/Frameworks/Debug/App.xcframework',
