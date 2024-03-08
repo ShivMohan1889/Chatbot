@@ -1,0 +1,46 @@
+name: chatbot
+description: Flutter module for Thinkresearch Chatbot SDK
+#Chatbot SDK Version Updated
+version: 1.0.14+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  clean_framework: ^3.2.2
+  clean_framework_graphql: ^0.4.2
+  equatable: ^2.0.5
+  flutter_dotenv: ^5.0.2
+  go_router: ^6.0.3
+  path_provider: ^2.0.11
+  riverpod: ^2.4.9
+  resources:
+    path: packages/resources
+  components:
+    path: packages/components
+  shared_preferences: ^2.2.2
+  timeago: ^3.6.1
+  cached_network_image: ^3.3.1
+  gap: ^3.0.1
+  url_launcher: ^6.1.14
+  google_fonts: 6.1.0
+  collection: ^1.17.1
+  webview_flutter: 3.0.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.2.0
+
+flutter:
+  uses-material-design: true
+  module:
+    androidX: true
+    androidPackage: com.thinkresearch.chatbot_native
+    iosBundleIdentifier: com.thinkresearch.chatbot_native
