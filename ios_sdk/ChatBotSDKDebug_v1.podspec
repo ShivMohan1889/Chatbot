@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
   s.name          = "ChatBotSDKDebug_v1"
   s.module_name   = 'ChatBotSDK'
-  s.version       = "1.0.17"
+  s.version       = "1.0.18"
   s.summary       = "iOS SDK for ChatBot"
   s.description   = "iOS SDK for ChatBot,"
-  s.homepage      = "https://github.com/ShivMohan1889/ChatBotSDK"
+  s.homepage      = "https://github.com/ShivMohan1889/Chatbot"
   s.license       = "MIT"
   s.author        = { 'Shiv' => 'shivmhnsingh@gmail.com' }
   s.platform      = :ios, "13.0"
   s.swift_version = "5.0"
   s.source        = {
-    :git => "https://github.com/ShivMohan1889/ChatBotSDK.git",
+    :git => "https://github.com/ShivMohan1889/Chatbot.git",
     :tag => "#{s.version}"
   }
   s.static_framework = true
