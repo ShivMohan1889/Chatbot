@@ -67,6 +67,7 @@ jobs:
 
       - name: 'Flutter pub get'
         run: |
+          cd chatbot_sdk_channel
           flutter pub get
 
       - name: 'Change Deployment Target in Xcode Project'
