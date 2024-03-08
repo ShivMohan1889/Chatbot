@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name          = "ChatBotSDKRelease_v1"
   s.module_name   = 'ChatBotSDK'
-  s.version       = "1.0.18"
+  s.version       = "1.0.20"
   s.summary       = "iOS SDK for ChatBot"
   s.description   = "iOS SDK for ChatBot,"
   s.homepage      = "https://github.com/ShivMohan1889/Chatbot"
@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
     :tag => "#{s.version}"
   }
   s.static_framework = true
-  s.source_files        = "ChatBotSDK/**/*.{h,m,swift}"
-  s.public_header_files = "ChatBotSDK/**/*.h"
+  s.source_files        = "ios_sdk/ChatBotSDK/**/*.{h,m,swift}"
+  s.public_header_files = "ios_sdk/ChatBotSDK/**/*.h"
   
   s.vendored_frameworks = [
    '../chatbot_sdk_channel/Frameworks/Release/App.xcframework',
