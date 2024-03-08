@@ -84,9 +84,9 @@ jobs:
           cd chatbot_sdk_channel
           flutter build ios-framework --output=Frameworks --no-profile
 
-      - name: "Update podspce file"
-        run: |
-          version=$(grep 'version:' pubspec.yaml | awk '{print $2}') awk -v new_version="$version" '  /s.version = / {$3 = "'"'"'" new_version "'"'"'"} 1' chatbot_sdk_channel_v2.podspec > temp && mv temp chatbot_sdk_channel_v2.podspec
+      # - name: "Update podspce file"
+      #   run: |
+      #     version=$(grep 'version:' pubspec.yaml | awk '{print $2}') awk -v new_version="$version" '  /s.version = / {$3 = "'"'"'" new_version "'"'"'"} 1' chatbot_sdk_channel_v2.podspec > temp && mv temp chatbot_sdk_channel_v2.podspec
 
 
       - name: "Deploy Debug to Cocoapods"
